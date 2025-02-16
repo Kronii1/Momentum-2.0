@@ -7,3 +7,7 @@ Copyright 2025. Me All rights reserved.
 25.02.16 ~ 25.02.
 
 This repository was created to study HTML & SCSS & JavaScript 💖
+
+## 개발환경
+
+✅ Vite, Sass
