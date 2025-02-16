@@ -1,3 +1,4 @@
+4.1
 html 규칙
 form 안에서 엔터를 누르고 input이 더 존재하지 않는다면
 자동으로 submit이 된다.
@@ -10,6 +11,8 @@ submit이 되면 자동으로 웹사이트가 새로고침이 된다.
 새로고침이 일어나는건 form submit의 기본 동작이다.
 브라우저는 엔터를 누를 때 새로고침을 하고 form을 submit 하도록 되어있다.
 
+
+4.2
 function onLoginSubmit(event){
 event.preventDefault(); // 브라우저가 기본 동작을 실행하지 못하게 막기 // event object는 preventDefault함수를 기본적으로 갖고 있음
 console.log(event);
@@ -25,3 +28,13 @@ preventDefault() 함수를 추가함으로써 브라우저의 기본 동작을 �
 첫 arument는 지금 막 벌어진 event들에 대한 정보를 갖고 있다.
 JS는(기본적으로)argument를 담아서 함수를 호출하는데, 이 argument가 기본 정보들을 제공하고 있다. 
 ex) 누가 submit주체인지, 몇 시에 submit을 했는지 등등 콘솔에 출력해보면 알 수 있음
+
+
+
+4.3
+addEventListener 안에 있는 함수는 직접 실행하지 않는다
+브라우저가 실행시켜주고
+브라우저에서 해당 이벤트에 대한 정보 즉, object를 가지게 된다.
+addEventListener의 함수에서 object에 대한 자리만 할당해주면
+해당 이벤트가 발생시킨 정보들에 대한 object들을 볼 수 있다!
+이때 해당 이벤트가 가진 기본 Default값을 발생시키지 않기 하게 위해선 preventDefault를 이용하여 막을 수 있다!
