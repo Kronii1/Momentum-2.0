@@ -1,15 +1,6 @@
-const HIDDEN_CLASSNAME = 'hidden';
-관습: string만 포함된 변수는 대문자로 쓴다 + 중요한 변수가 아니라 서.
-
-'hello!' + username + nice to meet you!; 는
-`hello ${username} nice to meet you `; 와 같으며 후자의 방법 사용하자.
-
-HTML의 어느 한 부분을 잡고 거기에 class 를 추가하거나 빼고 싶을 때는
-classList.add.('classname')
-classList.remove.('classname') 를 사용한다. 클래스를 마음대로 붙였다 뗄 수 있게 해준다. 위에서는 display:none;이 되어 있기 때문에 해당 html 태그(?)를 hide or show 할 수 있다.
-
-이 강의에서 한 것.
-1. 클릭하면, 자동으로 새로고침 되어 정보가 날아가는 것을 막고(preventDefault();)
-2. loginForm을 감추고(hidden)
-3. hidden 됐던 A 문구가 나타나고(remove hidden)
-4. A 문구와 username을 합쳐서 완전한 문구를 완성한다.
+localStorage.setItem(key, value);
+- 로컬 저장소에 해당 키와 값을 저장함.
+localStorage.getItem(key);
+- 로컬 저장소에 해당 키에 해당되는 값을 불러옴.
+localStorage.removeItem(key);
+- 로컬 저장소에 해당 키에 해당되는 키, 값을 삭제함.
