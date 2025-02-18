@@ -1,0 +1,6 @@
+intervals & timeout
+
+Interval이란?
+Interval은 '매번' 일어나야 하는 무언가를 말한다.
+
+setInterval(실행할 함수, 실행할 함수의 시간 5000 => 5초)
