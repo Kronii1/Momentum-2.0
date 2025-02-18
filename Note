@@ -8,3 +8,12 @@ setInterval(실행할 함수, 실행할 함수의 시간 5000 => 5초)
 setTimeout
 setTimeou은 지정한 ms시간까지 기다린 후 실행한다.
 setTimeout(실행할 함수. 얼마나 기다릴지의 ms단위 5000 => 5초)
+
+number를 string으로 바꾸는 방법은 String() 안에 감싸는 방법이 있다.
+
+0> 00 로 바꾸고 싶을 때는 padStart(x, 'y') 를 사용하면 된다.
+padStart는 내가 갖고 있는 string 을 길게 만들어 주고 싶을 때 사용.
+뒤에서 추가하고 싶을 때는 padEnd를 사용하면 된다.
+x는 원하는 length를, y는 앞에 채워줄 내용을 입력하면 된다.
+
+String(new Date().getHours()).padStart(2,'0');
