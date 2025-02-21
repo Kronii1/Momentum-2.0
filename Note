@@ -1,8 +1,10 @@
-4:30 toDo.id 는 newTodoObj에서 Date.now()의 값을 받은 숫자고요, 
-li의 id 값으로는 paintTodo 함수에서 newTodoObj.id 
-즉 똑같은 Date.now()인 숫자를 대입했구요. 근데 왜 li.id는 string인건가요?
+Geolocation.getCurrentPosition(success,error) 
+메서드는 장치의 현재 위치를 가져옴 & argument2개가 필요함
 
-7.3 Saving To Dos를 보시면 
-애초에 localStorage에 array를 저장할 수 없다고 니꼬쌤이 말씀하시네요. 
-그래서 saveTodos function을 실행할 때 JSON.stringify()를 이용해서 string으로 변환시켜서 저장한 것 같습니다.
-이게 저장될 때 string으로 저장되다 보니까 추후에 삭제할 때 숫자와 비교할 수 없어서 다시 parseInt()를 사용하여 숫자로 변환하는 걸로 해석했습니다 ㅎㅎ
+success는
+GeolocationPosition 객체를 유일한 매개변수로 받는 콜백 함수입니다.
+
+
+error optional
+GeolocationPositionError 객체를 유일한 매개변수로 받는 콜백 함수입니다.
+

@@ -17,3 +17,11 @@ This repository was created to study HTML & SCSS & JavaScript 💖
 Date 객체와 생성자
 
 <https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Date>
+
+Geolocation API
+
+<https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API>
+
+Geolocation API getCurrentPosition
+
+<https://developer.mozilla.org/en-US/docs/Web/API/Geolocation/getCurrentPosition>
