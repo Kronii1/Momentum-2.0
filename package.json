@@ -6,10 +6,16 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "deploy": "gh-pages -d build",
+    "predeploy": "npm run build",
     "preview": "vite preview"
   },
   "devDependencies": {
     "sass": "^1.83.4",
     "vite": "^5.1.4"
-  }
+  },
+  "dependencies": {
+    "gh-pages": "^6.3.0"
+  },
+  "homepage": "https://Kronii1.github.io/Momentum-2.0"
 }
