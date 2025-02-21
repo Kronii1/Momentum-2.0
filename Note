@@ -8,3 +8,8 @@ GeolocationPosition 객체를 유일한 매개변수로 받는 콜백 함수입�
 error optional
 GeolocationPositionError 객체를 유일한 매개변수로 받는 콜백 함수입니다.
 
+
+fetch -> promise
+
+promise는
+당장 뭔가 일어나지않고 시간이 좀 걸린 뒤에 일어나는 것을 의미
