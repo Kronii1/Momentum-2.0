@@ -8,32 +8,61 @@
     <title>Vite App</title>
   </head>
   <body>
-    <form id="login-form" class="hidden">
-      <input
-        required
-        maxlength="15"
-        type="text"
-        placeholder="What is your name"
-      />
-      <button>Log In</button>
-    </form>
-    <h1 id="greeting" class="hidden"></h1>
+    <header class="header__container">
+      <div class="header__menu">
+        <div class="header__menu-link">
+          <i class="fa-solid fa-arrow-up-right-from-square"></i>
+          <a href="https://www.pearlabyss.com/ko-KR"
+            ><span class="header__link__text">Links</span></a
+          >
+        </div>
 
-    <h2 id="clock">00:00</h2>
+        <div class="header__menu-todo">
+          <i class="fa-solid fa-book-quran"></i>
+          <span class="header__todo__text">Todo List</span>
+        </div>
+      </div>
 
-    <form id="todo-form">
-      <input type="text" placeholder="Write a To Do and Press Enter" required />
-    </form>
-    <ul id="todo-list"></ul>
+      <div id="weather__container">
+        <div id="weather__icons">
+          <img src="" width="40px" height="40px" />
+          <span></span>
+        </div>
+        <span id="weather__city__name"></span>
+      </div>
+    </header>
+
+    <div class="main__content">
+      <h2 id="clock">00:00</h2>
+
+      <div id="login-form__container">
+        <form id="login-form" class="hidden">
+          <input
+            required
+            maxlength="15"
+            type="text"
+            placeholder="What is your name"
+          />
+          <button>Log In</button>
+        </form>
+      </div>
+      <h1 id="greeting" class="hidden"></h1>
+    </div>
+
+    <div class="toDolist__container">
+      <form id="todo-form">
+        <input
+          type="text"
+          placeholder="Write a To Do and Press Enter"
+          required
+        />
+      </form>
+      <ul id="todo-list"></ul>
+    </div>
 
     <div id="quote__container">
       <span class="quote"></span>
       <span class="author"></span>
-    </div>
-
-    <div id="weather__container">
-      <span></span>
-      <span></span>
     </div>
 
     <script src="js/quotes.js"></script>
@@ -42,5 +71,9 @@
     <script src="js/background.js"></script>
     <script src="js/todo.js"></script>
     <script type="module" src="js/weather.js"></script>
+    <script
+      src="https://kit.fontawesome.com/01c69344c5.js"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

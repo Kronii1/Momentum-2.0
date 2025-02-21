@@ -19,11 +19,13 @@ function deleteToDo(event) {
 
 function printToDo(newTodo) {
   const li = document.createElement("li");
+  li.classList.add("todo-list__item");
   li.id = newTodo.id;
   const span = document.createElement("span");
   span.innerText = newTodo.text;
 
   const delButton = document.createElement("button");
+  delButton.classList.add("del__button");
   delButton.innerText = "❌";
 
   delButton.addEventListener("click", deleteToDo);
