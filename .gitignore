@@ -3,7 +3,7 @@
 # dependencies
 
 /node_modules
-/js/apikey.js
+/js/api.js
 
 # testing
 
