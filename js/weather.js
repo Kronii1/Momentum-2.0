@@ -1,4 +1,4 @@
-const API_KEY = import.meta.env.VITE_API_KEY;
+const API_KEY = "0e3d959b66216578eed1d3be1fe0942d";
 
 function onGeoOk(position) {
   const lat = position.coords.latitude;
