@@ -3,7 +3,6 @@
 # dependencies
 
 /node_modules
-/js/api.js
 
 # testing
 
@@ -15,7 +14,7 @@
 /dist
 
 # misc
-
+.env
 .DS_Store
 .env.local
 .env.development.local
