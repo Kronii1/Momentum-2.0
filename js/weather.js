@@ -1,4 +1,4 @@
-import API_KEY from "./api";
+const API_KEY = require("./api");
 
 function onGeoOk(position) {
   const lat = position.coords.latitude;
