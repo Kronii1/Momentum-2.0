@@ -1,5 +1,3 @@
-import { config } from "./api";
-
 const API_KEY = config.api_key;
 
 function onGeoOk(position) {
